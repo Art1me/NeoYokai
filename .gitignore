@@ -1,0 +1,20 @@
+# Unity кэш и временные файлы
+[Cc]lient/[Ll]ibrary/
+[Cc]lient/[Tt]emp/
+[Cc]lient/[Oo]bj/
+[Cc]lient/[Bb]uild/
+[Cc]lient/[Bb]uilds/
+[Cc]lient/[Ll]ogs/
+[Cc]lient/[Uu]ser[Ss]ettings/
+
+# Java / Maven / IDEA
+[Ss]erver/target/
+[Ss]erver/.idea/
+*.iml
+*.class
+*.log
+
+# Системные и IDE файлы
+.vscode/
+.idea/
+.DS_Store
