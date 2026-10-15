@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "ea64359702ba9e43",
+    "id": "506f51d9556843c2",
     "type": "split",
     "children": [
       {
-        "id": "dc22b72d27d8feed",
+        "id": "f3447907c59ab1bd",
         "type": "tabs",
         "children": [
           {
-            "id": "6f04b6cfe1b0adb6",
+            "id": "702c0e6bb8510fc8",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "00_Kanban_MVP.md.md",
+                "file": "00_Dashboard/00_Kanban_MVP.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
                   "list-collapse": [
@@ -25,74 +25,24 @@
                 }
               },
               "icon": "lucide-trello",
-              "title": "00_Kanban_MVP.md"
-            }
-          },
-          {
-            "id": "78295273e346c59d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_Architecture_and_DB.md.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01_Architecture_and_DB.md"
-            }
-          },
-          {
-            "id": "287b32fc0a54fe29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02_Lore_and_World.md.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02_Lore_and_World.md"
-            }
-          },
-          {
-            "id": "f1240b3493548e31",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "00_Kanban_MVP.md.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
-              },
-              "icon": "lucide-trello",
-              "title": "00_Kanban_MVP.md"
+              "title": "00_Kanban_MVP"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8d7e58dd26968c23",
+    "id": "fd9cfa8aa4039eaa",
     "type": "split",
     "children": [
       {
-        "id": "b6b7ec519da9fb99",
+        "id": "92517a73ad5a43cb",
         "type": "tabs",
         "children": [
           {
-            "id": "33a0ec93ef62964e",
+            "id": "ea514e766ab521f4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -107,7 +57,7 @@
             }
           },
           {
-            "id": "fcd78c6abbe996b1",
+            "id": "e6eb729de1f47037",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -124,7 +74,7 @@
             }
           },
           {
-            "id": "9c2f8cc429d0a3c5",
+            "id": "4dc999742808a8b4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -140,23 +90,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "0a5163d31c204552",
+    "id": "74d611a0c7488b3b",
     "type": "split",
     "children": [
       {
-        "id": "4aed12dcac82b459",
+        "id": "4b423098fedcd78b",
         "type": "tabs",
         "children": [
           {
-            "id": "a0d7f26f2ae2def6",
+            "id": "e23d8850671fe518",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Kanban_MVP.md.md",
+                "file": "02_TechSpecs/00_Architecture_and_DB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,12 +120,12 @@
             }
           },
           {
-            "id": "4181fa4341287355",
+            "id": "d62bebfa176a7880",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_Kanban_MVP.md.md",
+                "file": "02_TechSpecs/00_Architecture_and_DB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -184,7 +134,7 @@
             }
           },
           {
-            "id": "9f85e3f3c67895ac",
+            "id": "f0c14ed2a72f6e5b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -199,7 +149,7 @@
             }
           },
           {
-            "id": "be9ddf3351162fab",
+            "id": "b6127b352d99052c",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -213,12 +163,12 @@
             }
           },
           {
-            "id": "52207107b92132af",
+            "id": "6470c9d9288cc8f2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Kanban_MVP.md.md",
+                "file": "02_TechSpecs/00_Architecture_and_DB.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -236,23 +186,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false,
-      "obsidian-kanban:Create new board": false
+      "bases:Создать новую базу": false
     }
   },
-  "active": "f1240b3493548e31",
+  "active": "702c0e6bb8510fc8",
   "lastOpenFiles": [
-    "02_Lore_and_World.md.md",
-    "03_Items_and_Balance.md.md",
-    "Untitled Kanban.md",
-    "01_Architecture_and_DB.md.md",
-    "00_Kanban_MVP.md.md",
-    "Добро пожаловать.md"
+    "02_TechSpecs/00_Architecture_and_DB.md",
+    "01_GameDesign/01_Items_and_Balance.md",
+    "01_GameDesign/00_Lore_and_World.md",
+    "00_Dashboard/00_Kanban_MVP.md",
+    "99_Templates",
+    "02_TechSpecs",
+    "01_GameDesign",
+    "00_Dashboard"
   ]
 }
